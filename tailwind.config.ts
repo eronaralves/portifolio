@@ -21,6 +21,15 @@ const config: Config = {
           primary: "rgb(2, 4, 9)",
         },
       },
+      minHeight: {
+        header: "calc(550px - 80px)",
+      },
+      maxHeight: {
+        header: "calc(1000px - 80px)",
+      },
+      height: {
+        header: "calc(100vh - 80px)",
+      },
     },
   },
   plugins: [],
