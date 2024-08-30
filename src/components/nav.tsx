@@ -10,7 +10,7 @@ export function Nav() {
   const [isOpenMenuMobile, setIsOpenMenuMobile] = useState(false)
 
   return (
-    <nav className="max-w-7xl mx-auto flex px-5 py-7 justify-between">
+    <nav className="max-w-7xl h-[80px] mx-auto flex px-5 md:px-8 justify-between items-center">
       <div>
         <span className="text-xl">Eronar</span>
         <span className="text-xl font-semibold text-yellow-primary">Alves</span>
@@ -24,7 +24,7 @@ export function Nav() {
       </ul>
 
       {/* Mobile */}
-      <div className="flex overflow-hidden md:hidden"> 
+      <div className="flex overflow-hidden z-20 md:hidden"> 
         <Menu size={35} onClick={() => setIsOpenMenuMobile(true)} />
 
         <div className={`bg-gray-950 fixed right-0 top-0 bottom-0 transition-all overflow-hidden ${isOpenMenuMobile ? 'w-[65%] h-[100%] duration-500' :  'w-0 h-0 p-0 right-[-20px]'}`}>
