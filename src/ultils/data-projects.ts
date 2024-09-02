@@ -16,7 +16,7 @@ const dataProjects: Project[] = [
     description:
       "Projeto que fiz como um teste técnico para um freelancer, onde tive que desenvolver um login completo com integração com a API. E com esse isso consegui meu primeiro freelancer.",
     languages: ["react", "styled_components", "typescript"],
-    url_site: "https://desafio-le-select.vercel.app/login",
+    url_site: "https://desafio-le-select.vercel.app",
     year: 2024,
   },
   {
