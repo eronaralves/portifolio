@@ -12,6 +12,8 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "gradient-purple":
+          "linear-gradient(90deg, rgba(7,15,34,1) 17%, rgba(17,33,75,1) 56%, rgba(9,18,40,1) 90%, rgba(5,11,24,1) 100%)",
       },
       colors: {
         yellow: {
@@ -19,6 +21,10 @@ const config: Config = {
         },
         dark: {
           primary: "rgb(2, 4, 9)",
+        },
+        gray: {
+          primary: "#323443",
+          secondary: "#D4D4D4",
         },
       },
       minHeight: {

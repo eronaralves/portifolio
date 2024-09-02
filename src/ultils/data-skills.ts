@@ -7,25 +7,12 @@ import ImgCommunication from "@/assets/images/communication.png";
 import ImgAdaptation from "@/assets/images/adaptation.png";
 import ImgInnovation from "@/assets/images/innovation.png";
 
-// Icons
-import {
-  SiHtml5,
-  SiCss3,
-  SiJavascript,
-  SiReact,
-  SiNextdotjs,
-  SiStyledcomponents,
-  SiTypescript,
-  SiGithub,
-  SiChakraui,
-  SiSass,
-} from "react-icons/si";
-import { DiGit } from "react-icons/di";
+// Interface
+import { IconsTecnologys } from "./icon-tecnologys";
 
 interface HardSkills {
   name: string;
-  ICON: React.ComponentType<any>;
-  color: string;
+  skill: keyof typeof IconsTecnologys;
 }
 
 interface SoftSkills {
@@ -36,58 +23,47 @@ interface SoftSkills {
 const dataHardSkills: HardSkills[] = [
   {
     name: "HTML5",
-    ICON: SiHtml5,
-    color: "#DD4B25",
+    skill: "html",
   },
   {
     name: "Css3",
-    ICON: SiCss3,
-    color: "#1A6FB4",
+    skill: "css",
   },
   {
     name: "Java Script",
-    ICON: SiJavascript,
-    color: "#EFD81D",
+    skill: "javascript",
   },
   {
     name: "React",
-    ICON: SiReact,
-    color: "#5ED3F3",
+    skill: "react",
   },
   {
     name: "Next",
-    ICON: SiNextdotjs,
-    color: "#fff",
+    skill: "next",
   },
   {
     name: "Styled Components",
-    ICON: SiStyledcomponents,
-    color: "#D06EAA",
+    skill: "styled_components",
   },
   {
     name: "Typescript",
-    ICON: SiTypescript,
-    color: "#2F74C0",
+    skill: "typescript",
   },
   {
     name: "Git",
-    ICON: DiGit,
-    color: "#E84D31",
+    skill: "git",
   },
   {
     name: "Github",
-    ICON: SiGithub,
-    color: "#302E2F",
+    skill: "github",
   },
   {
     name: "Chakra ui",
-    ICON: SiChakraui,
-    color: "#63C3C6",
+    skill: "chakra_ui",
   },
   {
     name: "Sass",
-    ICON: SiSass,
-    color: "pink",
+    skill: "sass",
   },
 ];
 
