@@ -10,7 +10,7 @@ export function Nav() {
   const [isOpenMenuMobile, setIsOpenMenuMobile] = useState(false)
 
   return (
-    <nav className="max-w-7xl h-[80px] mx-auto flex px-5 md:px-8 justify-between items-center">
+    <nav className="h-[80px] flex justify-between items-center">
       <div>
         <span className="text-xl">Eronar</span>
         <span className="text-xl font-semibold text-yellow-primary">Alves</span>
@@ -19,7 +19,7 @@ export function Nav() {
       <ul className="hidden text-yellow-primary text-lg gap-8 md:flex">
         <Link to="/" smooth={true} duration={500} className="transition-all duration-200 hover:text-yellow-500 cursor-pointer">Inicio</Link>
         <Link to="skills" smooth={true} duration={500} className="transition-all duration-200 hover:text-yellow-500 cursor-pointer">Habilidades</Link>
-        <Link to="portifolio" smooth={true} duration={500} className="transition-all duration-200 hover:text-yellow-500 cursor-pointer">Porfólio</Link>
+        <Link to="projects" smooth={true} duration={500} className="transition-all duration-200 hover:text-yellow-500 cursor-pointer">Projetos</Link>
         <Link to="contact" smooth={true} duration={500} className="transition-all duration-200 hover:text-yellow-500 cursor-pointer">Contato</Link>
       </ul>
 
@@ -40,9 +40,9 @@ export function Nav() {
                 <Wrench />
                 Habilidades
               </Link>
-              <Link to="portifolio" smooth={true} duration={500} className="flex items-center gap-3 transition-all duration-200 hover:text-yellow-500 cursor-pointer">
+              <Link to="projects" smooth={true} duration={500} className="flex items-center gap-3 transition-all duration-200 hover:text-yellow-500 cursor-pointer">
                 <Bookmark /> 
-                Porfólio
+                Projetos
               </Link>
               <Link to="contact" smooth={true} duration={500} className="flex items-center gap-3 transition-all duration-200 hover:text-yellow-500 cursor-pointer">
                 <User />
