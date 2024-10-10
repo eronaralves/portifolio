@@ -1,6 +1,5 @@
 "use client"
 
-import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
@@ -35,7 +34,7 @@ export function Header() {
           <strong className="text-yellow-primary tracking-wide"> Eronar Alves</strong>
         </h2>
         <p className="text-lg md:text-xl opacity-70 md:leading-8 mt-4">Desenvolvedor Front-end com foco em resolução de problemas, acessibilidade, escalabilidade e desempenho.</p>
-        <a href="/Currículo_Eronar_Alves.pdf" download className="max-w-56 w-full flex justify-center items-center py-4 px-8 mt-8 rounded-full bg-yellow-primary font-medium">
+        <a href="/Currículo_Eronar_Alves.pdf" download className="max-w-56 w-full flex justify-center items-center py-4 px-8 mt-8 rounded-full bg-yellow-primary font-medium">
           Meu currículo
         </a>
       </div>
