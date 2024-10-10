@@ -28,7 +28,7 @@ interface IconsTecnologys {
   typescript: Icon;
   react: Icon;
   next: Icon;
-  tailwind: Icon;
+  tailwindcss: Icon;
   styled_components: Icon;
   git: Icon;
   github: Icon;
@@ -58,7 +58,7 @@ const IconsTecnologys: IconsTecnologys = {
     ICON: SiReact,
     color: "#5ED3F3",
   },
-  tailwind: {
+  tailwindcss: {
     ICON: SiTailwindcss,
     color: "#38BDF8",
   },
@@ -88,7 +88,7 @@ const IconsTecnologys: IconsTecnologys = {
   },
   prisma: {
     ICON: SiPrisma,
-    color: "#000",
+    color: "#fff",
   },
 };
 
