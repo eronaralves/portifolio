@@ -9,7 +9,7 @@ export function Footer() {
       <div className="w-full max-w-7xl mx-auto px-5 md:px-8">
         <h2 className="font-semibold text-xl mb-4 text-yellow-primary">Contatos</h2>
         <span className="font-bold text-2xl  block mb-2">Entre em contato por:</span>
-        <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCCSZgZhsPwmMRmTQlVmbMjGlhZVDwSzZFGglMnszMnmFsszQFXzcrwDWBJpjlQRxzRHSV" target="_blank">deveronaralves@gmail.com</a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=deveronaralves@email.com" target="_blank">deveronaralves@gmail.com</a>
 
         <div className="flex items-center gap-4 mt-3 mb-16">
           <a href="https://www.linkedin.com/in/eronaralves/" target="_blank" className="w-[34px] h-[34px] flex items-center justify-center rounded overflow-hidden bg-white cursor-pointer">
