@@ -27,7 +27,7 @@ export function Header() {
   }, [])
 
   return (
-    <div className="flex flex-col justify-between gap-12 relative xl:max-h-header xl:h-header xl:min-h-header">
+    <div className="flex flex-col justify-between gap-12 mt-[87px] sm:mt-0 relative xl:max-h-header xl:h-header xl:min-h-header">
       <div className="h-full max-w-[510px] w-full z-10 flex flex-col md:justify-center mt-6 xl:mt-0">
         <span className="font-extralight uppercase text-yellow-primary">{mensaeWelcome}</span>
         <h2 className="font-extrabold text-5xl md:text-7xl mt-1">
