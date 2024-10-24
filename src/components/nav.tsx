@@ -51,7 +51,7 @@ export function Nav() {
       <div className="fixed right-5 z-50 sm:hidden"> 
         <Menu size={30} onClick={() => setIsOpenMenuMobile(true)} />
 
-        <div className={`bg-gray-950 fixed right-0 top-0 bottom-0 transition-all overflow-hidden ${isOpenMenuMobile ? 'w-[100%] h-[100%] duration-500' :  'w-0 h-0 p-0 right-[-20px]'}`}>
+        <div className={`bg-dark-primary fixed right-0 top-0 bottom-0 transition-all overflow-hidden ${isOpenMenuMobile ? 'w-[100%] h-[100%] duration-500' :  'w-0 h-0 p-0 right-[-20px]'}`}>
           <div className="w-full h-full overflow-scroll px-4 py-6 pb-15">
             <X size={35} className="ml-auto" onClick={() => setIsOpenMenuMobile(false)} />
           

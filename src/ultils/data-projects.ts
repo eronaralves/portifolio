@@ -30,6 +30,15 @@ const dataProjects: Project[] = [
     year: 2024,
   },
   {
+    name: "Pokelist",
+    image: "/images/background-pokelist.jpeg",
+    description:
+      "Este projeto é uma Pokedex desenvolvida em React Native, onde os usuários podem buscar Pokémons consumindo dados de uma API. A aplicação permite filtrar os Pokémon por nome, alternar o idioma entre português e inglês, e oferece suporte ao modo escuro para melhorar a experiência do usuário em diferentes condições de luminosidade.",
+    languages: ["react_navite", "typescript"],
+    url_site: "/videos/pokelist.mp4",
+    year: 2023,
+  },
+  {
     name: "Coffe Delivery",
     image: "/images/coffe-delivery.png",
     description:

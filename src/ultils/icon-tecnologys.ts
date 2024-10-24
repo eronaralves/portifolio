@@ -14,6 +14,7 @@ import {
   SiPrisma,
 } from "react-icons/si";
 import { DiGit } from "react-icons/di";
+import { TbBrandReactNative } from "react-icons/tb";
 
 // Interfaces
 export interface Icon {
@@ -35,6 +36,7 @@ interface IconsTecnologys {
   chakra_ui: Icon;
   sass: Icon;
   prisma: Icon;
+  react_navite: Icon
 }
 
 const IconsTecnologys: IconsTecnologys = {
@@ -90,6 +92,10 @@ const IconsTecnologys: IconsTecnologys = {
     ICON: SiPrisma,
     color: "#fff",
   },
+  react_navite: {
+    ICON: TbBrandReactNative,
+    color: "#5ED3F3",
+  }
 };
 
 export { IconsTecnologys };
