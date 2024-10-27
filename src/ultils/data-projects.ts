@@ -8,7 +8,7 @@ import PokelistImg from "@/assets/images/background-pokelist.jpeg"
 import CoffeDeliveryImg from "@/assets/images/coffe-delivery.png"
 import PomodoroImg from "@/assets/images/pomodoro.png"
 import PageVnwImg from "@/assets/images/page-vnw.png"
-
+import BookWiseImg from "@/assets/images/book-wise.png"
 
 export interface Project {
   name: string;
@@ -21,6 +21,15 @@ export interface Project {
 }
 
 const dataProjects: Project[] = [
+  {
+    name: "Book Wise",
+    image: BookWiseImg,
+    description:
+      "Este projeto é para os amantes de leitura, onde é possível explorar e avaliar livros, visualizar os mais populares e acessar detalhes completos, como autor, resumo, categorias e avaliações da comunidade. A plataforma oferece uma experiência intuitiva, permitindo que os usuários encontrem novas leituras com base em recomendações e notas dos demais leitores. Com autenticação ao Google e Github",
+    languages: ["next", "prisma", "tailwindcss"],
+    url_site: "https://app-book-wise.vercel.app/sign-in",
+    year: 2024
+  },
   {
     name: "Login Le Select",
     image: LoginLeSelectImg,
