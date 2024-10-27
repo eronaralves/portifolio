@@ -8,7 +8,7 @@ import PokelistImg from "@/assets/images/background-pokelist.jpeg"
 import CoffeDeliveryImg from "@/assets/images/coffe-delivery.png"
 import PomodoroImg from "@/assets/images/pomodoro.png"
 import PageVnwImg from "@/assets/images/page-vnw.png"
-
+import BookWiseImg from "@/assets/images/book-wise.png"
 
 export interface Project {
   name: string;
@@ -21,6 +21,15 @@ export interface Project {
 }
 
 const dataProjects: Project[] = [
+  {
+    name: "Book Wise",
+    image: BookWiseImg,
+    description:
+      "Neste projeto, realizei um teste técnico para uma oportunidade de freelancer, onde desenvolvi um sistema de login completo com integração com uma API. Através dessa implementação que demonstrei habilidades em autenticação e gerenciamento de usuários. O sucesso desse projeto foi um fator decisivo que me permitiu conquistar meu primeiro trabalho como freelancer.",
+    languages: ["next", "prisma", "tailwindcss"],
+    url_site: "https://app-book-wise.vercel.app/sign-in",
+    year: 2024
+  },
   {
     name: "Login Le Select",
     image: LoginLeSelectImg,
