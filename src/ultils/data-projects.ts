@@ -81,8 +81,8 @@ const dataProjects: Project[] = [
     description:
       "Neste projeto, realizei um teste técnico para uma oportunidade em uma empresa, onde fui responsável pelo desenvolvimento completo do layout, assegurando uma estrutura de código organizada e eficiente. Segui rigorosamente o design fornecido, incorporando melhorias e toques adicionais para aprimorar a experiência do usuário. Este projeto não apenas destacou minha capacidade de traduzir conceitos visuais em implementações funcionais, mas também foi um fator crucial que me ajudou a conquistar meu primeiro emprego na área.",
     languages: ["html", "styled_components", "javascript"],
-    url_site: "https://page-vnw.vercel.app/",
     year: 2022,
+    observations: "não terá link pois tem informações da empresa"
   },
 ];
 
